@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from 'react';
+import React, { useState, useEffect} from 'react';
 import Loading from './components/Loading';
 import Tours from './components/Tours';
 
@@ -33,7 +33,8 @@ function App() {
     fecthTours();
   }, []);
 
-  // loading Component
+  // loading comm 
+
   if (loading)
     return (
       <main>
